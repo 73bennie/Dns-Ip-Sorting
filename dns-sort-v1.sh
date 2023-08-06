@@ -23,3 +23,4 @@ while read -r domain; do
         echo "Failed to resolve IP for '$domain'"
     fi
 done < "$input_file" | sort -u
+
